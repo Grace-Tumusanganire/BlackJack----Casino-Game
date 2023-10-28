@@ -1,5 +1,5 @@
 # BlackJack----Casino-Game
-BlackJack - A casino game that uses decks of 52 cards -- A human player is agianst a computer in this game
+BlackJack - A casino game that uses decks of 52 cards -- A human player is against a computer in this game
 
 This game is played by 2 players (a human player and the computer)
 
@@ -9,8 +9,8 @@ This game is played by 2 players (a human player and the computer)
            
            2. Click the deal button to ask for another card and increase your score
            
-               # N.B.: Be cautious about asking for a new card because when you get above 21, you automatically loose and the computer wins
-                
+**               N.B.: Be cautious about asking for a new card because when you get above 21, you automatically loose and the computer wins
+**                
            3. Click the stop button to allow the computer to play, and once done, the winner is anounced
            
            4. Click the new game button to start a new game
