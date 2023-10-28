@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+  <title>Black Jack Game</title>
+  <link href="blackJack.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+ <!--Introduction content -->
+    <h1>Welcome to black jack game !!!</h1>
+    <p id="instr" style="font-size: 19px"><b>Instructions of the game</b> <br><br>
+     This game is played by 2 players (a human player and the computer)<br>
+         To start playing the game, follow the instructions below: <br><br>
+           1. Click the start button to start the game with 2 cards<br>
+           2. Click the deal button to ask for another card and increase your score <br>
+                <b>N.B.: Be cautious about asking for a new card because<br>
+                when you get above 21, you automatically loose and the computer wins</b><br>
+           3. Click the stop button to allow the computer to play, and once done, the winner is anounced <br>
+           4. Click the new game button to start a new game<br><br>
+           
+           <b>The winner of the game is the one that scores higher and as close but not more than 21 points </b><br><br><br>
+           <b>If the human player scores the same as the computer, it's the computer that wins </b><br><br><br>
+
+           <b>Are you ready to start the game??....... HIT THE START BUTTON and LET'S GO......</b>
+    </p>
+
+</div>
+
+<h3 id="lastC"></h3>
+
+<div id="prevCard"> 
+    <br>
+    <input type="button" id="start" value="Start" onclick="startGame(cardDeck, playerCards, divImg1, playerScore, pScore)"></button>
+    <input type="button" id="deal" value="Deal" onclick="continueGame()"></button>
+    <input type="button" id="stop" value="Stop" onclick="nextPlayer()"></button>
+    <input type="button" id="nugame" value="New Game" onclick="newGame()"></button>
+</div>
+
+ <h2 id="gameResol"></h2><br><br> <!--Game resolution content -->
+
+ <!--Human Player Content (cards and score) -->
+<div id="pCards"> 
+    <h3 id="player"></h3><br><br>
+    <h4 id="scoreP" ></h4><br><br><br>
+</div>
+
+ <!--Computer Player Content (cards and score) -->
+ <div id="cCards">
+    <h3 id="computer"></h3>
+    <h4 id="scoreC"></h4>
+</div>
+
+<script src="./blackJack.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url(./cards/4.jpg);
+    background-repeat: no-repeat;
+    background-color: #0e6653e7;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode:darken;
+    color: rgb(255, 255, 255);
+}   
+
+
+   #prevCard img{
+       height: 180px;   
+       width: 130px;
+   }
+
+
+   #pCards{
+       float: left;
+       margin: auto;
+       width: fit-content;
+    }
+   
+   #pCards img{
+       height: 180px;   
+       width: 130px;
+       
+   }
+   
+   #pCards h4{
+    position: absolute;
+    display: block;
+   }
+
+   #pCards h3{
+    position: absolute;
+    display: block;
+  }
+   #cCards{
+       float: right;
+       margin: auto;
+       width: fit-content;
+   }
+   
+   #cCards img{
+       height: 180px;   
+       width: 130px;
+       
+       
+   }
+   
+   #cCards h4{
+    position:relative
+    /* display: block; */
+   }
+
+   #cCards h3{
+    /* position: absolute;  */
+    display: block; 
+   }
+
+   #gameResol {
+     font-weight: bolder;
+     animation-iteration-count: infinite;
+     animation-fill-mode: forwards;
+     text-transform: uppercase;
+     background-image: linear-gradient(
+       -229deg,
+       rgb(67, 249, 255) 0%,
+       rgb(247, 247, 247) 29%,
+       rgb(67, 249, 255) 67%,
+       rgb(196, 192, 192) 100%
+     );
+     background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     color: #fff;
+     background-clip: text;
+     font-weight: 5000px;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+     display: inline-block;
+     font-size: 30px;
+   }
+   
+   
+   @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+   #deal{
+       width: 60px;
+       height: 30px;
+       font-size: 20px;
+   }
+   
+   #stop{
+       width: 60px;
+       height: 30px;
+       font-size: 20px;
+   }
+
+   #start{
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#nugame{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+}
